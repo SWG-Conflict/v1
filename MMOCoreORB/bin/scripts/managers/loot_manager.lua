@@ -41,9 +41,9 @@
 --which carries forward this exception.
 
 --Determines how often exceptional and legendary items can drop.
-yellowChance = 1000 -- 1 in 1,000
-exceptionalChance = 100000 --1 in 100,000
-legendaryChance = 1000000 --1 in 1,000,000
+yellowChance = 250 -- 1 in 1,000
+exceptionalChance = 10000 --1 in 100,000
+legendaryChance = 25000 --1 in 1,000,000
 --yellowChance = 50 --1 in 50 for testing
 --exceptionalChance = 100 --1 in 100 for testing
 --legendaryChance = 1000 --1 in 1000 for testing
@@ -61,7 +61,7 @@ randomDotAttribute = {0, 8} -- See CreatureAttributes.h in src for numbers.
 randomDotStrength = {10, 200} -- Set for disease. Fire will be x1.5, poison x2.
 randomDotDuration = {30, 240} -- Set for poison. Fire will be x1.5, disease x5.
 randomDotPotency = {1, 100}
-randomDotUses = {250, 9999}
+randomDotUses = {-1, 9999}
 
 -- Modifier applied to min/max junk values found in loot item lua
 junkValueModifier = 5;
