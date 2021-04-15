@@ -61,6 +61,7 @@ CityVotingCycles = 3
 CityVotingCyclesUntilLocked = 2
 
 --The amount of time in minutes before the city performs an update.
+--MODIFICATION: RETRIBUTION
 CityUpdateInterval = 60
 
 --The amount of time in minutes a new city has to gain enough citizens to remain a city.

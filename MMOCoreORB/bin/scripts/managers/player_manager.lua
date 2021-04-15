@@ -44,10 +44,12 @@
 --GENERAL PLAYER SETTINGS
 -----------------------------------
 
+--MODIFICATION: RETRIBUTION
 onlineCharactersPerAccount = 3 --How many characters are allowed online from a single account.
 allowSameAccountPvpRatingCredit = 0
 
 --Blue frog / GM buff values
+--MODIFICATION: RETRIBUTION
 performanceBuff = 2000
 medicalBuff = 3000
 performanceDuration = 10800 -- in seconds
@@ -57,6 +59,7 @@ medicalDuration = 10800 -- in seconds
 groupExpMultiplier = 1.2
 
 --Sets a global experience multiplier
+--MODIFICATION: RETRIBUTION
 globalExpMultiplier = 3.0
 
 --Sets the base number of control devices of each type that a player can have in their datapad at once
