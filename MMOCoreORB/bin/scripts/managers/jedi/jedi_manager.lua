@@ -11,7 +11,9 @@ if _TEST then
 	ITEMTHEATERDATAPAD = 2
 end
 
-jediProgressionType = VILLAGEJEDIPROGRESSION
+-- MODIFICATION: RETRIBUTION
+-- jediProgressionType = VILLAGEJEDIPROGRESSION
+jediProgressionType =  HOLOGRINDJEDIPROGRESSION
 
 jediManagerName = "JediManager"
 

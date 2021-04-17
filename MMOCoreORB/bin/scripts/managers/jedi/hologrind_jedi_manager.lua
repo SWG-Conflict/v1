@@ -3,7 +3,8 @@ local ObjectManager = require("managers.object.object_manager")
 
 jediManagerName = "HologrindJediManager"
 
-NUMBEROFPROFESSIONSTOMASTER = 6
+-- MODIFICATION: RETRIBUTION
+NUMBEROFPROFESSIONSTOMASTER = 0
 MAXIMUMNUMBEROFPROFESSIONSTOSHOWWITHHOLOCRON = NUMBEROFPROFESSIONSTOMASTER - 2
 
 HologrindJediManager = JediManager:new {
