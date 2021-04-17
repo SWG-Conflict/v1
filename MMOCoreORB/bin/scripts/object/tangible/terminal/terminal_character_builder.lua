@@ -2171,7 +2171,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			},
 			"Veteran Rewards (COMPLETE)",
 			{
-				90 Day Rewards
+				--90 Day Rewards
 				"@veteran_new:poweredharvester","object/tangible/veteran_reward/harvester.iff",
 				"@veteran_new:dataterminal1","object/tangible/veteran_reward/data_terminal_s1.iff",
 				"@veteran_new:dataterminal2","object/tangible/veteran_reward/data_terminal_s2.iff",
@@ -2179,13 +2179,13 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 				"@veteran_new:dataterminal4","object/tangible/veteran_reward/data_terminal_s4.iff",
 				"@veteran_new:mini_protocoldroid","object/tangible/veteran_reward/frn_vet_protocol_droid_toy.iff",
 				"@veteran_new:mini_r2","object/tangible/veteran_reward/frn_vet_r2_toy.iff",
-				180 Day Rewards
+				--180 Day Rewards
 				"@veteran_new:resourcecrate","object/tangible/veteran_reward/resource.iff",
 				"@veteran_new:falconcouch","object/tangible/veteran_reward/frn_couch_falcon_corner_s01.iff",
 				"@veteran_new:falconchair","object/tangible/veteran_reward/frn_couch_falcon_section_s01.iff",
 				"@veteran_new:mini_tiefighter","object/tangible/veteran_reward/frn_vet_tie_fighter_toy.iff",
 				"@veteran_new:mini_xwing","object/tangible/veteran_reward/frn_vet_x_wing_toy.iff",
-				270 Day Rewards
+				--270 Day Rewards
 				"Deed for Flash Speeder","object/tangible/deed/vehicle_deed/speederbike_flash_deed.iff",
 				"Special Edition Goggles Style 1","object/tangible/wearables/goggles/goggles_s01.iff",
 				"Special Edition Goggles Style 2","object/tangible/wearables/goggles/goggles_s02.iff",
@@ -2194,7 +2194,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 				"Special Edition Goggles Style 5","object/tangible/wearables/goggles/goggles_s05.iff",
 				"Special Edition Goggles Style 6","object/tangible/wearables/goggles/goggles_s06.iff",
 				"@veteran_new:mini_darthvader","object/tangible/veteran_reward/frn_vet_darth_vader_toy.iff",
-				360 Day Rewards
+				--360 Day Rewards
 				"@veteran_new:techconsole_a","object/tangible/veteran_reward/frn_tech_console_sectional_a.iff",
 				"@veteran_new:techconsole_b","object/tangible/veteran_reward/frn_tech_console_sectional_b.iff",
 				"@veteran_new:techconsole_c","object/tangible/veteran_reward/frn_tech_console_sectional_c.iff",
@@ -2202,51 +2202,51 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 				"@veteran_new:mini_jabba","object/tangible/veteran_reward/frn_vet_jabba_toy.iff",
 				"@veteran_new:mini_stormtrooper","object/tangible/veteran_reward/frn_vet_stormtrooper_toy.iff",
 				"@veteran_new:antidecay","object/tangible/veteran_reward/antidecay.iff",
-				450 Day Rewards
+				--450 Day Rewards
 				"Camp Center (Small)","object/tangible/camp/camp_spit_s2.iff",
 				"Camp Center (Large)","object/tangible/camp/camp_spit_s3.iff",
 				"Gold Ornamental Vase (Style 1)","object/tangible/furniture/tatooine/frn_tato_vase_style_01.iff",
 				"Gold Ornamental Vase (Style 2)","object/tangible/furniture/tatooine/frn_tato_vase_style_02.iff",
 				"Foodcart","object/tangible/furniture/decorative/foodcart.iff",
 				"Park Bench","object/tangible/furniture/all/frn_bench_generic.iff",
-				540 Day Rewards
+				--540 Day Rewards
 				"Professor Desk","object/tangible/furniture/decorative/professor_desk.iff",
 				"@frn_n:diagnostic_screen","object/tangible/furniture/decorative/diagnostic_screen.iff",
 				"Large Potted Plant (Style 2)","object/tangible/furniture/all/frn_all_plant_potted_lg_s2.iff",
 				"Large Potted Plant (Style 3)","object/tangible/furniture/all/frn_all_plant_potted_lg_s3.iff",
 				"Large Potted Plant (Style 4)","object/tangible/furniture/all/frn_all_plant_potted_lg_s4.iff",
-				630 Day Rewards
+				--630 Day Rewards
 				"Bar Countertop","object/tangible/furniture/modern/bar_counter_s1.iff",
 				"Bar Countertop (Curved, Style 1)","object/tangible/furniture/modern/bar_piece_curve_s1.iff",
 				"Bar Countertop (Curved, Style 2)","object/tangible/furniture/modern/bar_piece_curve_s2.iff",
 				"Bar Countertop (Straight, Style 1)","object/tangible/furniture/modern/bar_piece_straight_s1.iff",
 				"Bar Countertop (Straight, Style 2)","object/tangible/furniture/modern/bar_piece_straight_s2.iff",
-				720 Day Rewards
+				--720 Day Rewards
 				"Round Cantina Table (Style 1)","object/tangible/furniture/all/frn_all_table_s01.iff",
 				"Round Cantina Table (Style 2)","object/tangible/furniture/all/frn_all_table_s02.iff",
 				"Round Cantina Table (Style 3)","object/tangible/furniture/all/frn_all_table_s03.iff",
 				"Large Cantina Sofa","object/tangible/furniture/tatooine/frn_tatt_chair_cantina_seat_2.iff",
 				"@frn_n:frn_tato_cafe_parasol","object/tangible/furniture/tatooine/frn_tato_cafe_parasol.iff",
-				810 Day Rewards
+				--810 Day Rewards
 				"Medium Oval Rug","object/tangible/furniture/modern/rug_oval_m_s02.iff",
 				"Small Oval Rug","object/tangible/furniture/modern/rug_oval_sml_s01.iff",
 				"Medium Rectangular Rug","object/tangible/furniture/modern/rug_rect_m_s01.iff",
 				"Small Rectangular Rug","object/tangible/furniture/modern/rug_rect_sml_s01.iff",
 				"Medium Round Rug","object/tangible/furniture/modern/rug_rnd_m_s01.iff",
 				"Small Round Rug","object/tangible/furniture/modern/rug_rnd_sml_s01.iff",
-				900 Day Rewards
+				--900 Day Rewards
 				"A Bith Skull","object/tangible/loot/misc/loot_skull_bith.iff",
 				"A Human Skull","object/tangible/loot/misc/loot_skull_human.iff",
 				"A Ithorian Skull","object/tangible/loot/misc/loot_skull_ithorian.iff",
 				"A Thune Skull","object/tangible/loot/misc/loot_skull_thune.iff",
 				"A Voritor Lizard Skull","object/tangible/loot/misc/loot_skull_voritor.iff",
-				990 Day Rewards
+				--990 Day Rewards
 				"Large Rectangular Rug (Style 1)","object/tangible/furniture/modern/rug_rect_lg_s01.iff",
 				"Large Rectangular Rug (Style 2)","object/tangible/furniture/modern/rug_rect_lg_s02.iff",
 				"Large Oval Rug","object/tangible/furniture/modern/rug_oval_lg_s01.iff",
 				"Large Round Rug","object/tangible/furniture/modern/rug_rnd_lg_s01.iff",
 				"Round Data Terminal","object/tangible/furniture/all/frn_all_desk_map_table.iff",
-				1080 Day Rewards
+				--1080 Day Rewards
 				"Painting: Cast Wing in Flight","object/tangible/veteran_reward/one_year_anniversary/painting_01.iff",
 				"Painting: Decimator","object/tangible/veteran_reward/one_year_anniversary/painting_02.iff",
 				"Painting: Tatooine Dune Speeder","object/tangible/veteran_reward/one_year_anniversary/painting_03.iff",
