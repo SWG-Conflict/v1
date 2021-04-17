@@ -24,7 +24,7 @@ function printf(...) io.write(string.format(table.unpack({...}))) end
 JediManager = ScreenPlay:new {
 	screenplayName = jediManagerName,
 	jediManagerName = jediManagerName,
-	jediProgressionType = HOLOGRINDJEDIPROGRESSION,
+	jediProgressionType = NOJEDIPROGRESSION,
 }
 
 -- Default handling of the start event.
