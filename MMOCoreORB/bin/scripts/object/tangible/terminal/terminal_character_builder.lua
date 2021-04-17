@@ -1,53 +1,53 @@
-Copyright (C) 2010 <SWGEmu>
+--Copyright (C) 2010 <SWGEmu>
 
 
-This File is part of Core3.
+--This File is part of Core3.
 
-This program is free software; you can redistribute
-it and/or modify it under the terms of the GNU Lesser
-General Public License as published by the Free Software
-Foundation; either version 2 of the License,
-or (at your option) any later version.
+--This program is free software; you can redistribute
+--it and/or modify it under the terms of the GNU Lesser
+--General Public License as published by the Free Software
+--Foundation; either version 2 of the License,
+--or (at your option) any later version.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-See the GNU Lesser General Public License for
-more details.
+--This program is distributed in the hope that it will be useful,
+--but WITHOUT ANY WARRANTY; without even the implied warranty of
+--MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+--See the GNU Lesser General Public License for
+--more details.
 
-You should have received a copy of the GNU Lesser General
-Public License along with this program; if not, write to
-the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+--You should have received a copy of the GNU Lesser General
+--Public License along with this program; if not, write to
+--the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
-Linking Engine3 statically or dynamically with other modules
-is making a combined work based on Engine3.
-Thus, the terms and conditions of the GNU Lesser General Public License
-cover the whole combination.
+--Linking Engine3 statically or dynamically with other modules
+--is making a combined work based on Engine3.
+--Thus, the terms and conditions of the GNU Lesser General Public License
+--cover the whole combination.
 
-In addition, as a special exception, the copyright holders of Engine3
-give you permission to combine Engine3 program with free software
-programs or libraries that are released under the GNU LGPL and with
-code included in the standard release of Core3 under the GNU LGPL
-license (or modified versions of such code, with unchanged license).
-You may copy and distribute such a system following the terms of the
-GNU LGPL for Engine3 and the licenses of the other code concerned,
-provided that you include the source code of that other code when
-and as the GNU LGPL requires distribution of source code.
+--In addition, as a special exception, the copyright holders of Engine3
+--give you permission to combine Engine3 program with free software
+--programs or libraries that are released under the GNU LGPL and with
+--code included in the standard release of Core3 under the GNU LGPL
+--license (or modified versions of such code, with unchanged license).
+--You may copy and distribute such a system following the terms of the
+--GNU LGPL for Engine3 and the licenses of the other code concerned,
+--provided that you include the source code of that other code when
+--and as the GNU LGPL requires distribution of source code.
 
-Note that people who make modified versions of Engine3 are not obligated
-to grant this special exception for their modified versions;
-it is their choice whether to do so. The GNU Lesser General Public License
-gives permission to release a modified version without this exception;
-this exception also makes it possible to release a modified version
-
-NOTES ABOUT CHARACTER BUILDER TERMINAL ITEM LIST FORMAT
--
-The item list is an infinitely deep node tree system.
-To create a sub menu, use the following format:
-"Name of the sub menu", {Menu items contained in brackets}
-To create an item that is selectable, use the following format (within brackets of a submenu):
-"Name of the item", "Path to the server or client template."
-Be sure to pay attention to commas.
+--Note that people who make modified versions of Engine3 are not obligated
+--to grant this special exception for their modified versions;
+--it is their choice whether to do so. The GNU Lesser General Public License
+--gives permission to release a modified version without this exception;
+--this exception also makes it possible to release a modified version
+--
+--NOTES ABOUT CHARACTER BUILDER TERMINAL ITEM LIST FORMAT
+---------------------------------------------------------
+--The item list is an infinitely deep node tree system.
+--To create a sub menu, use the following format:
+--"Name of the sub menu", {Menu items contained in brackets}
+--To create an item that is selectable, use the following format (within brackets of a submenu):
+--"Name of the item", "Path to the server or client template."
+--Be sure to pay attention to commas.
 
 object_tangible_terminal_terminal_character_builder = object_tangible_terminal_shared_terminal_character_builder:new {
 	gameObjectType = 16400,
@@ -2418,12 +2418,12 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 					"Fine Woven Rug (Style 4)", "object/tangible/furniture/all/frn_all_rug_rectangle_large_style_04.iff",
 					"Fine Woven Rug (Style 5)", "object/tangible/furniture/all/frn_all_rug_rectangle_large_style_05.iff",
 					"Tatooine Tapestry","object/tangible/furniture/decorative/tatooine_tapestry.iff",
-				 The following do not generate an item, but are in the TRE files.
-				"Bestine Rug","object/tangible/furniture/modern/bestine_quest_rug",
-				"Large Oval Rug (Style 3)","object/tangible/furniture/modern/rug_oval_lg_s01",
-				"Large Round Rug (Style 3)","object/tangible/furniture/modern/rug_rnd_m_s01",
-				"Small Rectangular Rug","object/tangible/furniture/modern/rug_rect_sml_s01",
-				"Medium Rectangular Rug","object/tangible/furniture/modern/rug_rect_m_s01",
+				-- The following do not generate an item, but are in the TRE files.
+				--"Bestine Rug","object/tangible/furniture/modern/bestine_quest_rug",
+				--"Large Oval Rug (Style 3)","object/tangible/furniture/modern/rug_oval_lg_s01",
+				--"Large Round Rug (Style 3)","object/tangible/furniture/modern/rug_rnd_m_s01",
+				--"Small Rectangular Rug","object/tangible/furniture/modern/rug_rect_sml_s01",
+				--"Medium Rectangular Rug","object/tangible/furniture/modern/rug_rect_m_s01",
 				},
 				"Plants",
 				{
@@ -2551,31 +2551,31 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 					"Modern Table", "object/tangible/furniture/modern/table_modern_style_01.iff"
 				},
 				"Camp Furniture",
-				 Commented items don't have a mouseover hit box, which makes them too difficult to interact with.
-				 Uncomment them when the issue has been resolved.
+				-- Commented items don't have a mouseover hit box, which makes them too difficult to interact with.
+				-- Uncomment them when the issue has been resolved.
 				{
-					"Ashes","object/tangible/camp/campfire_logs_ash.iff",
-					"Logs (Burnt)","object/tangible/camp/campfire_logs_burnt.iff",
-					"Logs (Fresh)","object/tangible/camp/campfire_logs_fresh.iff",
-					"Logs (Smoldering)","object/tangible/camp/campfire_logs_smoldering.iff",
+					--"Ashes","object/tangible/camp/campfire_logs_ash.iff",
+					--"Logs (Burnt)","object/tangible/camp/campfire_logs_burnt.iff",
+					--"Logs (Fresh)","object/tangible/camp/campfire_logs_fresh.iff",
+					--"Logs (Smoldering)","object/tangible/camp/campfire_logs_smoldering.iff",
 					"Chair (Style 1)","object/tangible/camp/camp_chair_s1.iff",
 					"Chair (Style 2)","object/tangible/camp/camp_chair_s2.iff",
 					"Chair (Style 3)","object/tangible/camp/camp_chair_s3.iff",
-					"Cot (Style 1)","object/tangible/camp/camp_cot_s1.iff",
-					"Cot (Style 2)","object/tangible/camp/camp_cot_s2.iff",
-					"Cot (Style 3)","object/tangible/camp/camp_cot_s3.iff",
-					"Crate","object/tangible/camp/camp_crate_s1.iff",
-					"Lantern (Style 1)","object/tangible/camp/camp_lantern_s1.iff",
-					"Lantern (Style 2)","object/tangible/camp/camp_lantern_s2.iff",
-					"Lantern (Style 3)","object/tangible/camp/camp_lantern_s3.iff",
-					"Torch (Tall)","object/tangible/camp/camp_light_s1.iff",
-					"Light Post","object/tangible/camp/camp_light_s2.iff",
-					"Light Post (Beacon)","object/tangible/camp/camp_light_s3.iff",
+					--"Cot (Style 1)","object/tangible/camp/camp_cot_s1.iff",
+					--"Cot (Style 2)","object/tangible/camp/camp_cot_s2.iff",
+					--"Cot (Style 3)","object/tangible/camp/camp_cot_s3.iff",
+					--"Crate","object/tangible/camp/camp_crate_s1.iff",
+					--"Lantern (Style 1)","object/tangible/camp/camp_lantern_s1.iff",
+					--"Lantern (Style 2)","object/tangible/camp/camp_lantern_s2.iff",
+					--"Lantern (Style 3)","object/tangible/camp/camp_lantern_s3.iff",
+					--"Torch (Tall)","object/tangible/camp/camp_light_s1.iff",
+					--"Light Post","object/tangible/camp/camp_light_s2.iff",
+					--"Light Post (Beacon)","object/tangible/camp/camp_light_s3.iff",
 					"Meat Skewer","object/tangible/camp/camp_spit_s1.iff",
 					"Camp Center (Small)","object/tangible/camp/camp_spit_s2.iff",
 					"Camp Center (Large)","object/tangible/camp/camp_spit_s3.iff",
-				"Stool (Short)","object/tangible/camp/camp_stool_short.iff",
-				"Stool (Tall)","object/tangible/camp/camp_stool_tall.iff",
+				--"Stool (Short)","object/tangible/camp/camp_stool_short.iff",
+				--"Stool (Tall)","object/tangible/camp/camp_stool_tall.iff",
 				},
 				"Jedi Furniture",
 				{
